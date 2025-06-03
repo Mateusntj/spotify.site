@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #a5d8ff;
+}
+
+header img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.favoritos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
